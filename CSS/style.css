@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Oxanium:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap');
+
+/* font-family: 'Oxanium', cursive; */
+
+* {
+    font-family: 'Oxanium', cursive;
+}
+
+body {
+    background: linear-gradient(to bottom, rgb(230, 211, 106),rgb(195, 151, 39));
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+
+main {
+    background: url('../images/pokedex.png') no-repeat center;
+    background-size: 100% 100%;
+    width: 23rem;
+    height: 80%;
+    text-align: center;
+    position: relative;
+}
+
+main img {
+    width: 6rem;
+    position: absolute;
+    top: 9rem;
+    right: 10rem;
+}
+
+.pokemon_data {
+  font-weight: 600; 
+  color:#aaa ;
+  font-size: 1.6rem;
+  position: absolute;
+  top: 16.5rem;
+  left: 6rem;
+
+}
+
+.pokemon_name {
+    text-transform: capitalize;
+}
+
+.form {
+    border: 2px solid;
+    width: 65%;
+    position: absolute;
+    bottom: 8rem;
+    right: 4.3rem;
+}
+
+input {
+    width: 100%;
+    border: 2px solid;
+    color: #333;
+    padding: 3%;
+    outline: none;
+    border-radius: .4rem;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: 1.4rem;
+    background-color: #eee;
+    box-shadow: -3px 4px #888, -5px 7px #333 ;
+
+}
+
+.buttons {
+    width: 65%;
+    position: absolute;
+    bottom: 3.5rem;
+    right: 4.3rem;
+    display: flex;
+    gap: 1.25rem;
+}
+
+button {
+    width: 50%;
+    padding: 3%;
+    border: 2px solid #000;
+    border-radius: .4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: -2px 3px #222, -4px 6px #000 ;
+}
+
+button:active {
+    font-size: .9rem;
+    box-shadow: inset -4px 4px #222;
+}
+
