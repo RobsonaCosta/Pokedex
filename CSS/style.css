@@ -18,16 +18,17 @@ main {
     background: url('../Images/pokedex.png') no-repeat center;
     background-size: 100% 100%;
     width: 23rem;
-    height: 80%;
+    height: 30rem;
     text-align: center;
     position: relative;
 }
 
 main img {
     width: 6rem;
+    height: 6rem;
     position: absolute;
-    top: 9rem;
-    right: 10rem;
+    top: 12rem;
+    right: 9rem;
 }
 
 .pokemon_data {
@@ -35,8 +36,8 @@ main img {
   color:#aaa ;
   font-size: 1.6rem;
   position: absolute;
-  top: 16.5rem;
-  left: 6rem;
+  top: 20rem;
+  left: 5rem;
 
 }
 
@@ -45,7 +46,7 @@ main img {
 }
 
 .form {
-    border: 2px solid;
+  
     width: 65%;
     position: absolute;
     bottom: 8rem;
